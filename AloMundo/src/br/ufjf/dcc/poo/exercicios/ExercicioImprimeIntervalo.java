@@ -1,3 +1,4 @@
+package br.ufjf.dcc.poo.exercicios;
 import javax.swing.JOptionPane;
 
 public class ExercicioImprimeIntervalo {

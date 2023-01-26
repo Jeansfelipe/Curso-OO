@@ -1,3 +1,4 @@
+package br.ufjf.dcc.poo.exercicios;
 import java.util.Scanner;
 
 import javax.swing.JOptionPane;
