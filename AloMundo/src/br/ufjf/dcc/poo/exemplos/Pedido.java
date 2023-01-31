@@ -1,6 +1,6 @@
 package br.ufjf.dcc.poo.exemplos;
 
 public class Pedido {
-	Item;
+	Item i;
 	String tipoDPagamento;
 }
