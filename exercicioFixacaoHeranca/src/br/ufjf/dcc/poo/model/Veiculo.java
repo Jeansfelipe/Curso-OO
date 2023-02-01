@@ -1,13 +1,12 @@
 package br.ufjf.dcc.poo.model;
 
 public abstract class Veiculo {
-	private
-		String marca;
-		float capacidadeTanque;
-		float kmRodados;
-		float kmPorLitro;
-		double CalcularConsumo(double precoLitro) {
-			return (double) kmPorLitro * precoLitro;
+	
+	private String marca;
+	private float capacidadeTanque;
+	private float kmPorLitro;
+	private double CalcularConsumo(double precoLitro) {
+			return 0;
 		}
 	public
 		String getMarca() {

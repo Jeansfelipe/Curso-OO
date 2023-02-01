@@ -1,8 +1,11 @@
 package br.ufjf.dcc.poo.model;
 
 public class Caminhao extends Veiculo{
-	float Tara;
-	double calcularConsumo(double precoLitro) {
-		return ((this.capacidadeTanque / this.kmPorLitro) * precoLitro) / Tara;
-	}
+	private
+		float Tara;
+	public
+		double calcularConsumo(double precoLitro) {
+			return ((this.getCapacidadeTanque() / this.getKmPorLitro()) * precoLitro) / Tara;
+		}
+
 }
