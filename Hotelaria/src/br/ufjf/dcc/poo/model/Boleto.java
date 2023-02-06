@@ -9,6 +9,7 @@ public class Boleto {
 	private Socio socio;
 	private Pagamento pagamento;
 	
+	
 	public String getCodBarra() {
 		return codBarra;
 	}
